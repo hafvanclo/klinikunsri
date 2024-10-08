@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UnsriHealthZone</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="obat">Obat</string>
+    <string name="layanan">Layanan</string>
+    <string name="dokter">Dokter</string>
+    <string name="ambulans">Ambulans</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="icon">Icon description for accessibility</string>
+</resources>

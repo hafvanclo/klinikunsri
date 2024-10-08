@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/home"
+        android:title="Dashboard"
+        android:iconTint="@color/primary"/>
+
+    <item
+        android:id="@+id/navigation_ambulans"
+        android:icon="@drawable/ambulance"
+        android:title="Ambulans" />
+
+    <item
+        android:id="@+id/navigation_dokter"
+        android:icon="@drawable/stroke"
+        android:title="Dokter" />
+
+    <item
+        android:id="@+id/navigation_obat"
+        android:icon="@drawable/capsul"
+        android:title="Obat" />
+
+    <item
+        android:id="@+id/navigation_call"
+        android:icon="@drawable/call"
+        android:title="Call" />
+</menu>

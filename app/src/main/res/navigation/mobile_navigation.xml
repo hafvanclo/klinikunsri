@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.unsrihealthzone.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_ambulans"
+        android:name="com.example.unsrihealthzone.ui.ambulans.AmbulansFragment"
+        android:label="Ambulans"
+        tools:layout="@layout/fragment_ambulans" />
+
+    <fragment
+        android:id="@+id/navigation_dokter"
+        android:name="com.example.unsrihealthzone.ui.dokter.DokterFragment"
+        android:label="Dokter"
+        tools:layout="@layout/fragment_dokter" />
+
+    <fragment
+        android:id="@+id/navigation_obat"
+        android:name="com.example.unsrihealthzone.ui.obat.ObatFragment"
+        android:label="Obat"
+        tools:layout="@layout/fragment_obat" />
+
+    <fragment
+        android:id="@+id/navigation_call"
+        android:name="com.example.unsrihealthzone.ui.call.CallFragment"
+        android:label="Call"
+        tools:layout="@layout/fragment_call" />
+
+    <fragment
+        android:id="@+id/popup_darurat"
+        android:name="com.example.unsrihealthzone.ui.ambulans.popup_darurat"
+        tools:layout="@layout/fragment_popup_darurat">
+        <action
+            android:id="@+id/action_popup_darurat_to_pilihLokasiMap"
+            app:destination="@id/pilihLokasiMap" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pilihLokasiMap"
+        android:name="com.example.unsrihealthzone.ui.ambulans.PilihLokasiMap"
+        tools:layout="@layout/fragment_pilih_lokasi_map" />
+
+
+</navigation>
