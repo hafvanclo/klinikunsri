@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "368705617096",
+    "firebase_url": "https://unsrihealthzone-default-rtdb.firebaseio.com",
+    "project_id": "unsrihealthzone",
+    "storage_bucket": "unsrihealthzone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368705617096:android:b50c8fe19342eb47fb39fd",
+        "android_client_info": {
+          "package_name": "com.example.unsrihealthzone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBadxa05oMR_AK_5z62x2rWEnNQb_RBWeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

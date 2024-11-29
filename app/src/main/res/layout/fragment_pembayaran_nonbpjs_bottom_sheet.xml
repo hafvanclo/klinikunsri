@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metode Pembayaran"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupPembayaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <RadioButton
+                android:id="@+id/rbTunai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tunai" />
+
+            <RadioButton
+                android:id="@+id/rbNonTunai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Non Tunai"
+                android:layout_marginStart="32dp" />
+        </RadioGroup>
+
+        <!-- Opsi Non-Tunai -->
+        <LinearLayout
+            android:id="@+id/layoutNonTunai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="16dp">
+
+            <RadioButton
+                android:id="@+id/rbDana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DANA" />
+
+            <RadioButton
+                android:id="@+id/rbGopay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GoPay"
+                android:layout_marginStart="32dp" />
+        </LinearLayout>
+
+        <!-- Detail Pesanan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesanan"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDetailPesanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paracetamol 500mg x2 = Rp. 6000"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvOngkosKirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ongkos Kirim = Rp. 5000"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvTotalHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total = Rp. 17000"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <!-- Lokasi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jl. Palembang - Prabumulih KM.32, Indralaya, Sumatera Selatan"
+            android:layout_marginTop="8dp" />
+
+        <!-- Tombol Bayar -->
+        <Button
+            android:id="@+id/btnBayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bayar"
+            android:background="@color/dark_blue"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

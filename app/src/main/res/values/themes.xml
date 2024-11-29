@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UnsriHealthZone" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <item name="android:fontFamily">@font/outfit_regular</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextAppearance.App" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_regular</item>
+    </style>
+
+    <style name="TextAppearance.Bold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_bold</item>
+    </style>
+
+    <style name="TextAppearance.Black" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_black</item>
+    </style>
+
+    <style name="TextAppearance.ExtraBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_extrabold</item>
+    </style>
+
+    <style name="TextAppearance.ExtraLight" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_extralight</item>
+    </style>
+
+    <style name="TextAppearance.Light" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_light</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_medium</item>
+    </style>
+
+    <style name="TextAppearance.Semibold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+    </style>
+
+    <style name="TextAppearance.Thin" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/outfit_thin</item>
+    </style>
+
+
+</resources>
