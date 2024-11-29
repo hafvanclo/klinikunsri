@@ -23,7 +23,7 @@
    - Menyediakan metode pembayaran yang aman.
    - Memberikan informasi status pemesanan obat.
 
-5. **Customer Service**
+5. **Layanan Pelanggan**
    - Layanan chat atau panggilan suara dengan petugas customer service.
    - Memberikan informasi terkait layanan klinik.
    - Menerima laporan atau keluhan dari pengguna.
